@@ -1,4 +1,7 @@
 ﻿using System;
+using HelloWorld.O01_Variable;
+using HelloWorld.O02_Class;
+using HelloWorld.O03_Array;
 
 namespace HelloWorld
 {
@@ -13,9 +16,25 @@ namespace HelloWorld
             Variables.TypeConversion();
         }
 
+        public static void LearnClasses()
+        {
+            Person person = new("Naveen", "Kumar");
+            person.Introduce();
+
+        }
+
+        public static void LearnArray()
+        {
+            ArrayDemo array = new();
+            array.ArrayExample();
+
+        }
+
         static void Main(string[] args)
         {
             LearnVariables();
+            LearnClasses();
+            LearnArray();
 
         }
     }

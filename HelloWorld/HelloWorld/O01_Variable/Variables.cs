@@ -1,5 +1,5 @@
 ﻿using System;
-namespace HelloWorld
+namespace HelloWorld.O01_Variable
 {
     public class Variables
     {
@@ -22,9 +22,7 @@ namespace HelloWorld
             Console.WriteLine("Overflowing " + number);
             int number1 = 257;
 
-            byte number2 = number1;
-
-
+            byte number2 = (byte)number1;
         }
 
         public static void TypeConversion()

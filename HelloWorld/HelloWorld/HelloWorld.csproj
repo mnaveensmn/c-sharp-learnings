@@ -5,4 +5,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="class\" />
+    <None Remove="O1_Variable\" />
+    <None Remove="O03_Array\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="O02_Class\" />
+    <Folder Include="O01_Variable\" />
+    <Folder Include="O03_Array\" />
+  </ItemGroup>
 </Project>
