@@ -9,6 +9,7 @@ namespace HelloWorld.O01_Variable
 
         public static void Initialize()
         {
+            Console.WriteLine("\nVariable Example\n");
             int number = 1;
             int Number = 2;
             const float pi = 3.14f;

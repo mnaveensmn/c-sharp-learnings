@@ -6,6 +6,7 @@ namespace HelloWorld.O02_Class
     {
         private readonly string FirstName;
         private readonly string SecondName;
+        public int age = 10;
 
         public Person(string FirstName, string SecondName)
         {
@@ -15,6 +16,7 @@ namespace HelloWorld.O02_Class
 
         public void Introduce()
         {
+            Console.WriteLine("\nClass Example\n");
             Console.WriteLine("Hello, {0} {1}", FirstName, SecondName);
         }
     }

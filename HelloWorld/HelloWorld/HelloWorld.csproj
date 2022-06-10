@@ -9,10 +9,18 @@
     <None Remove="class\" />
     <None Remove="O1_Variable\" />
     <None Remove="O03_Array\" />
+    <None Remove="O04_String\" />
+    <None Remove="O05_Enum\" />
+    <None Remove="O06_ReferenceValueType\" />
+    <None Remove="O07_ControlFlow\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="O02_Class\" />
     <Folder Include="O01_Variable\" />
     <Folder Include="O03_Array\" />
+    <Folder Include="O04_String\" />
+    <Folder Include="O05_Enum\" />
+    <Folder Include="O06_ReferenceValueType\" />
+    <Folder Include="O07_ControlFlow\" />
   </ItemGroup>
 </Project>

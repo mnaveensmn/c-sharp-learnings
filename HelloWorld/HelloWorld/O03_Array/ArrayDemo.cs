@@ -7,8 +7,9 @@ namespace HelloWorld.O03_Array
 		{
 		}
 
-		public void ArrayExample()
+		public static void ArrayExample()
         {
+			Console.WriteLine("\nArray Example\n");
 			int[] arr = new int[100];
 
 			arr[0] = 10;
