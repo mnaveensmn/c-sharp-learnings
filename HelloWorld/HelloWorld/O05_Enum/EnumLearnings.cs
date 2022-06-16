@@ -28,6 +28,9 @@ namespace HelloWorld.O05_Enum
 			string methodName = "RegisteredAirMail";
 			ShippingMethods ShippingMethod = (ShippingMethods)Enum.Parse(typeof(ShippingMethods), methodName);
 			Console.WriteLine(ShippingMethod);
+
+			Console.WriteLine(ShippingMethods.RegisteredAirMail);
+			Console.WriteLine((int)ShippingMethods.RegisteredAirMail);
 		}
 	}
 }

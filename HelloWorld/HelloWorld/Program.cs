@@ -28,6 +28,11 @@ namespace HelloWorld
             ArrayDemo.ArrayExample();
         }
 
+        public static void LearnEnum()
+        {
+            EnumLearnings.Learn();
+        }
+
         public static void LearnString()
         {
             StringLearnings.Learn();
@@ -43,6 +48,7 @@ namespace HelloWorld
             LearnVariables();
             LearnClasses();
             LearnArray();
+            LearnEnum();
             LearnString();
             LearnReferenceValueType();
         }
