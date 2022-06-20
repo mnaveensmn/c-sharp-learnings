@@ -1,14 +1,24 @@
 ﻿using System;
 namespace HelloWorld.O07_ControlFlow
 {
+
+	public enum Season
+    {
+		Autumn,
+		Winter,
+		Summer,
+		Spring
+    }
+
 	public class ControlFlow
 	{
 		public ControlFlow()
 		{
 		}
+
 		public static void LearnIfElse()
 		{
-			Console.WriteLine("\nLearn Control Flow\n");
+			Console.WriteLine("\nLearn If Else\n");
 
 			if (1==0)
             {
@@ -31,7 +41,28 @@ namespace HelloWorld.O07_ControlFlow
             {
 				Console.WriteLine("Neither a==1 nor a==2. a is {0}",a);
 			}
+
+			Console.WriteLine(a==10?"Option 1":"Option 2");
 		}
+
+		public static void LearnSwitch()
+        {
+			Season season = Season.Autumn;
+
+			switch(season)
+            {
+				case Season.Autumn:
+					Console.WriteLine("Autumn Season");
+					break;
+				case Season.Spring:
+					Console.WriteLine("Spring Season");
+					break;
+				defaul:
+					Console.WriteLine("Default");
+					break;
+            }
+        }
+
 	}
 
 	

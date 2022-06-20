@@ -5,6 +5,7 @@ using HelloWorld.O03_Array;
 using HelloWorld.O04_String;
 using HelloWorld.O05_Enum;
 using HelloWorld.O06_ReferenceValueType;
+using HelloWorld.O07_ControlFlow;
 
 namespace HelloWorld
 {
@@ -43,6 +44,12 @@ namespace HelloWorld
             ReferenceValueType.Learn();
         }
 
+        public static void LearnControlFlow()
+        {
+            ControlFlow.LearnIfElse();
+            ControlFlow.LearnSwitch();
+        }
+
         static void Main(string[] args)
         {
             LearnVariables();
@@ -51,6 +58,7 @@ namespace HelloWorld
             LearnEnum();
             LearnString();
             LearnReferenceValueType();
+            LearnControlFlow();
         }
     }
 }
