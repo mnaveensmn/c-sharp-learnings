@@ -1,4 +1,5 @@
 ﻿using System;
+using HelloWorld.O00_Exercise;
 using HelloWorld.O01_Variable;
 using HelloWorld.O02_Class;
 using HelloWorld.O03_Array;
@@ -48,10 +49,20 @@ namespace HelloWorld
         {
             ControlFlow.LearnIfElse();
             ControlFlow.LearnSwitch();
+            ControlFlow.LearnForLoop();
+            ControlFlow.LearnWhileLoop();
+            ControlFlow.LearnRandomClass();
+        }
+
+        public static void RunExercise()
+        {
+            O01_ControlFlow.Run();
         }
 
         static void Main(string[] args)
         {
+            //RunExercise();
+
             LearnVariables();
             LearnClasses();
             LearnArray();
@@ -59,6 +70,7 @@ namespace HelloWorld
             LearnString();
             LearnReferenceValueType();
             LearnControlFlow();
+           
         }
     }
 }

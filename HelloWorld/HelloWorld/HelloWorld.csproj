@@ -13,6 +13,7 @@
     <None Remove="O05_Enum\" />
     <None Remove="O06_ReferenceValueType\" />
     <None Remove="O07_ControlFlow\" />
+    <None Remove="O00_Exercise\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="O02_Class\" />
@@ -22,5 +23,6 @@
     <Folder Include="O05_Enum\" />
     <Folder Include="O06_ReferenceValueType\" />
     <Folder Include="O07_ControlFlow\" />
+    <Folder Include="O00_Exercise\" />
   </ItemGroup>
 </Project>
