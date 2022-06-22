@@ -56,20 +56,21 @@ namespace HelloWorld
 
         public static void RunExercise()
         {
-            O01_ControlFlow.Run();
+            //O01_ControlFlow.Run();
+            O02_Loops.Run();
         }
 
         static void Main(string[] args)
         {
-            //RunExercise();
+            RunExercise();
 
-            LearnVariables();
-            LearnClasses();
-            LearnArray();
-            LearnEnum();
-            LearnString();
-            LearnReferenceValueType();
-            LearnControlFlow();
+            //LearnVariables();
+            //LearnClasses();
+            //LearnArray();
+            //LearnEnum();
+            //LearnString();
+            //LearnReferenceValueType();
+            //LearnControlFlow();
            
         }
     }
