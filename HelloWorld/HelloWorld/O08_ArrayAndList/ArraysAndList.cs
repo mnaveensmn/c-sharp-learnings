@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace HelloWorld.O08_ArrayAndList
 {
-    public class Arrays
+    public class ArrayAndList
     {
-        public Arrays()
+        public ArrayAndList()
         {
         }
 
@@ -17,7 +17,7 @@ namespace HelloWorld.O08_ArrayAndList
 
         public static void LearnArray()
         {
-            Console.WriteLine("\nSingle Dimension Array Example\n");
+            Console.WriteLine("\nArray Example\n");
 
             //Length of an array
             int[] numbers = new int[] { 1, 2, 3, 4, 5, 6 };
@@ -69,6 +69,7 @@ namespace HelloWorld.O08_ArrayAndList
 
         public static void LearnList()
         {
+            Console.WriteLine("\nList Example\n");
             List<int> list = new() { 1, 2 };
             list.AddRange(new int[] { 3, 4, 1 });
             list.Add(5);
@@ -83,6 +84,7 @@ namespace HelloWorld.O08_ArrayAndList
             Console.WriteLine("Last Index of 1: " + list.LastIndexOf(1));
             Console.WriteLine("List Count: " + list.Count);
 
+            Console.WriteLine("Remove 1 in the list");
             list.Remove(1);
             foreach (int a in list)
             {
@@ -104,12 +106,9 @@ namespace HelloWorld.O08_ArrayAndList
 
             Console.WriteLine("");
 
+            Console.WriteLine("Clearing the list");
             list.Clear();
-
-
-
-
-
+            Console.WriteLine(list.Count);
 
         }
 

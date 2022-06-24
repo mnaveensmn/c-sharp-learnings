@@ -7,6 +7,7 @@ using HelloWorld.O04_String;
 using HelloWorld.O05_Enum;
 using HelloWorld.O06_ReferenceValueType;
 using HelloWorld.O07_ControlFlow;
+using HelloWorld.O08_ArrayAndList;
 
 namespace HelloWorld
 {
@@ -54,6 +55,11 @@ namespace HelloWorld
             ControlFlow.LearnRandomClass();
         }
 
+        public static void LearnArrayAndList()
+        {
+            ArrayAndList.Learn();
+        }
+
         public static void RunExercise()
         {
             //O01_ControlFlow.Run();
@@ -62,7 +68,7 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            RunExercise();
+            //RunExercise();
 
             //LearnVariables();
             //LearnClasses();
@@ -71,7 +77,7 @@ namespace HelloWorld
             //LearnString();
             //LearnReferenceValueType();
             //LearnControlFlow();
-           
+            LearnArrayAndList();
         }
     }
 }
