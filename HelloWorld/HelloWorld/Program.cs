@@ -63,12 +63,13 @@ namespace HelloWorld
         public static void RunExercise()
         {
             //O01_ControlFlow.Run();
-            O02_Loops.Run();
+            //O02_Loops.Run();
+            O03_ArrayAndList.Run();
         }
 
         static void Main(string[] args)
         {
-            //RunExercise();
+            RunExercise();
 
             //LearnVariables();
             //LearnClasses();
@@ -77,7 +78,7 @@ namespace HelloWorld
             //LearnString();
             //LearnReferenceValueType();
             //LearnControlFlow();
-            LearnArrayAndList();
+            //LearnArrayAndList();
         }
     }
 }
