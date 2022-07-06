@@ -11,10 +11,10 @@ namespace HelloWorld.O00_Exercise
 
         public static void Run()
         {
-            //LearnFaceBookLikes();
-            //ReverseString();
-            //SortNumbers();
-            //FilterDuplicates();
+            LearnFaceBookLikes();
+            ReverseString();
+            SortNumbers();
+            FilterDuplicates();
             ThreeSmallestNumber();
 
         }
@@ -54,6 +54,7 @@ namespace HelloWorld.O00_Exercise
 
         public static void ReverseString()
         {
+            Console.WriteLine("Enter the name to reverse");
             string enteredName = Console.ReadLine();
             char[] nameCharArr = enteredName.ToCharArray();
             int start = 0, end = nameCharArr.Length - 1;

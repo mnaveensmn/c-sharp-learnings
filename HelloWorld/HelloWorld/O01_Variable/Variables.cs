@@ -7,6 +7,13 @@ namespace HelloWorld.O01_Variable
         {
         }
 
+        public static void Learn()
+        {
+            Initialize();
+            Overflowing();
+            TypeConversion();
+        }
+
         public static void Initialize()
         {
             Console.WriteLine("\nVariable Example\n");

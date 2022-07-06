@@ -15,6 +15,7 @@
     <None Remove="O07_ControlFlow\" />
     <None Remove="O00_Exercise\" />
     <None Remove="O08_ArrayAndList\" />
+    <None Remove="O09_Dates\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="O02_Class\" />
@@ -26,5 +27,6 @@
     <Folder Include="O07_ControlFlow\" />
     <Folder Include="O00_Exercise\" />
     <Folder Include="O08_ArrayAndList\" />
+    <Folder Include="O09_Dates\" />
   </ItemGroup>
 </Project>

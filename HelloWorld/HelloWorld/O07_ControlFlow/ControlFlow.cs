@@ -16,6 +16,15 @@ namespace HelloWorld.O07_ControlFlow
         {
         }
 
+        public static void Learn()
+        {
+            LearnIfElse();
+            LearnSwitch();
+            LearnForLoop();
+            LearnWhileLoop();
+            LearnRandomClass();
+        }
+
         public static void LearnIfElse()
         {
             Console.WriteLine("\nLearn If Else\n");
