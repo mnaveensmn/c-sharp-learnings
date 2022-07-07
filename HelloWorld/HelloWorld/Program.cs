@@ -26,7 +26,8 @@ namespace HelloWorld
 
         ExerciseControlFlow,
         ExerciseLoops,
-        ExerciseArrayAndList
+        ExerciseArrayAndList,
+        ExerciseText
     };
 
     class Program
@@ -72,6 +73,9 @@ namespace HelloWorld
                 case Learning.DateTime:
                     DateAndTimes.Learn();
                     break;
+                case Learning.ExerciseText:
+                    O04_Text.Run();
+                    break;
                 default:
                     Console.WriteLine("No Program is configured");
                     break;
@@ -80,7 +84,7 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            Execute(Learning.DateTime);
+            Execute(Learning.String);
         }
     }
 }
